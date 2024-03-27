@@ -309,4 +309,4 @@ y_best_dtc_pred = best_dtc.predict(X_test)
 print(classification_report(y_test, y_best_dtc_pred))
 
 
-# Conclusion: Based on the classification reports we may say that Decision Tree and Random Forest can give us better model to predict wine quality.
+# Conclusion: Both models perform reasonably well with an accuracy of 81%. The precision, recall, and F1-score are consistent across different classes for both models. Given the similarity in performance metrics, it's difficult to determine which model is definitively better based solely on this information. However, in practice, Random Forest models tend to be more robust and less prone to overfitting compared to single Decision Trees, especially for complex datasets. Therefore, if computational resources allow, the Random Forest model might be preferred for its potential to generalize better to unseen data and handle more complex relationships in the data.
